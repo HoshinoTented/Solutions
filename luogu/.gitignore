@@ -1,0 +1,30 @@
+# idea
+.idea/
+out/
+
+# vscode
+.vscode/
+
+# build
+build/
+cmake-build-*
+
+# unknown
+main.cpp
+
+# emacs
+\#*
+*~
+
+# gradle
+.gradle/
+
+# test case
+test/
+
+# test output
+output
+
+# haskell generation
+*.hi
+*.o

@@ -1,0 +1,11 @@
+ice1.in:
+  timeLimit: 5000
+  memoryLimit: 128000
+
+ice2.in:
+  timeLimit: 5000
+  memoryLimit: 128000
+
+ice3.in:
+  timeLimit: 5000
+  memoryLimit: 128000

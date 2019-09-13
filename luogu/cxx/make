@@ -1,0 +1,21 @@
+#!/bin/bash
+
+pid="$1"
+
+if [ -z "$pid" ] 
+then
+    echo "EMPTY PROBLEM ID"
+    exit
+fi
+
+path="./src/$pid.cpp"
+output="./build/LuoGu"
+
+g++ $path -o $output -g -Wall
+
+if [ $? -eq 0 ]
+then
+    echo "Finished"
+else
+    echo "Compile Error"
+fi

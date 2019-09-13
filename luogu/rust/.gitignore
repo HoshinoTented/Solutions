@@ -1,0 +1,6 @@
+# idea
+/.idea/
+
+# rust
+target/
+Cargo.lock

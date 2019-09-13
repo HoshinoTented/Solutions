@@ -1,0 +1,10 @@
+# testlib
+/checkers/
+/docs/
+/generators/
+/interactors/
+/validators/
+/LICENSE
+/read.me
+/README.md
+/testlib.h
